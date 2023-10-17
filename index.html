@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Dreamy Decor</title>
+</head>
+
+<body id="home">
+  <nav class="navbar background h-nav-resp">
+    <ul class="navlist v-class-resp">
+      <div class="logo"><img src="img/logo.png" alt="logo" height="50px" width="50px"></div>
+      <li><a href="#home">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <div class="rightNav v-class-resp">
+      <input type="text" name="search" id="search" placeholder="Search">
+      <button id="search-btn">Search</button>
+      
+    </div>
+
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+  <section class="background firstSection">
+    <div class="box-main">
+      <div class="firstHalf">
+        <p class="text-big">Welcome to Dreamy Decor</p>
+        <p class="text-small" style="margin-top: 1rem;">We bring your dream home to life</p>
+        <div class="button home-btns">
+          <button class="btn" onclick=" openLoginPage()">Subscribe</button>
+          <button class="btn" onclick="openVideo()">Watch Video</button>
+          
+        </div>
+      </div>
+      <div class="secondHalf">
+        <img src="img/f.jpg" alt="very">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="services">
+    <div class="paras">
+      <p class="sectionTab text-big mb-16">
+        Home Staging
+      </p>
+      <p class="sectionSubTag text-small">
+        Our expertise lies in crafting captivating home staging setups that effortlessly captivate potential buyers.
+        Through meticulous attention to detail and a keen understanding of design principles, we create spaces that
+        evoke a sense of warmth, style, and elegance. By strategically arranging furniture, decor, and accessories, we
+        transform properties into inviting havens that resonate with prospective buyers, ultimately maximizing their
+        emotional connection and accelerating the selling process. Trust us to showcase your property's full potential
+        and leave a lasting impression on potential buyers.
+      </p>
+    </div>
+    <div class="thumbnail mb-16">
+      <img src="img/c.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="section section-left">
+    <div class="paras">
+      <p class="sectionTab text-big mb-16">
+        Interior Design
+      </p>
+      <p class="sectionSubTag text-small">
+        Our team of experienced professionals offers expert interior design services customized to suit your unique
+        preferences and requirements. With a keen eye for aesthetics and a deep understanding of spatial dynamics, we
+        curate cohesive and visually stunning interiors that reflect your personal style. Whether it's a residential
+        space or a commercial project, we approach each design with meticulous attention to detail, integrating
+        functionality, comfort, and beauty seamlessly. Trust us to transform your space into a captivating environment
+        that perfectly aligns with your vision and enhances your lifestyle.
+      </p>
+    </div>
+    <div class="thumbnail mb-16">
+      <img src="img/b.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="paras">
+      <p class="sectionTab text-big mb-16">
+        Renovation
+      </p>
+      <p class="sectionSubTag text-small">
+        Experience the transformative power of our renovation services as we breathe new life into your living spaces.
+        From minor updates to complete overhauls, our skilled team revitalizes your home with careful attention to
+        detail and impeccable craftsmanship. We work closely with you to understand your goals and bring your vision to
+        life, delivering stunning results that exceed your expectations. Whether it's updating a single room or
+        renovating your entire property, our dedication to quality and client satisfaction ensures a seamless and
+        enjoyable renovation experience. Get ready to fall in love with your newly renovated space all over again.
+      </p>
+    </div>
+    <div class="thumbnail mb-16">
+      <img src="img/d.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+      <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+      <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone">
+      <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email">
+      <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+        placeholder="Elaborate your concern"></textarea>
+      <button class="btn btn-dark">Submit</button>
+    </div>
+  </section>
+  <footer class="background">
+    <p class="text-footer">
+      &copy; 2023 Dreamy Decor - All rights reserved
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
